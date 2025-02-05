@@ -10,7 +10,7 @@ const openlink = () => {
 export default function Home() {
   return (
     <div>
-      <h2>Hello</h2>
+      <h2>Hello for interview mocker</h2>
       <Button onClick={openlink}>Click me</Button>
     </div>
   );
