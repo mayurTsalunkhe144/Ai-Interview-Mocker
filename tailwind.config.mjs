@@ -1,3 +1,5 @@
+import { DEFAULT_SERIF_FONT } from 'next/dist/shared/lib/constants';
+
 /** @type {import('tailwindcss').Config} */
 export default {
     darkMode: ["class"],
@@ -9,6 +11,9 @@ export default {
   theme: {
   	extend: {
   		colors: {
+			theme_primary: {
+				DEFAULT:"#af0ceb"
+			},
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
   			card: {

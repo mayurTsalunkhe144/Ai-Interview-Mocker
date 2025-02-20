@@ -1,11 +1,11 @@
+
 import React from 'react'
 
-const Dashboard = ({ children }) => {
+const Dashboard = () => {
     return (
         <div>
-        {
-            children
-        }
+        helo from Dashboard
+     
         </div>
     )
 }
